@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="tests">
+	<test thread-count="5" name="Test">
+	<parameter name="Amen" value="420"></parameter>
+		<classes>
+			<class name="Pack_1.BoysBike_1" />
+			<class name="Pack_1.BoysBike_2" />
+			<class name="Pack_1.BoysBike_3" />
+			<class name="Pack_1.BoysBike_4" />
+		</classes>
+	</test> <!-- Test -->
+	
+    <test thread-count="5" name="Test1">
+    <parameter name="Raghu" value="421"></parameter>
+		<classes>
+	<class name="Pack_2.BoysCar_1" />
+	<class name="Pack_2.BoysCar_2" />
+	<class name="Pack_2.BoysCar_3" />
+	<class name="Pack_2.BoysCar_4" />
+</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->
